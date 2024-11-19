@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>24/7 Availability - ResponseBuddy</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+      tailwind.config = {
+          theme: {
+              extend: {
+                  colors: {
+                      primary: '#4F46E5',
+                      secondary: '#7C3AED',
+                  },
+              },
+          },
+      };
+  </script>
+</head>
+<body class="flex flex-col min-h-screen bg-gradient-to-br from-purple-100 to-indigo-100">
+  <header class="sticky top-0 z-50 w-full bg-white shadow-md transition-all duration-300 ease-in-out">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-between items-center py-4 md:justify-start md:space-x-10">
+              <div class="flex justify-start lg:w-0 lg:flex-1">
+                  <a href="index.html" class="flex items-center space-x-2 transition-transform duration-300 ease-in-out hover:scale-105">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                      </svg>
+                      <span class="font-bold text-2xl bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">ResponseBuddy</span>
+                  </a>
+              </div>
+              <nav class="hidden md:flex space-x-10">
+                  <a href="index.html#features" class="text-base font-medium text-gray-500 hover:text-gray-900 transition-colors duration-300 ease-in-out">Features</a>
+                  <a href="index.html#pricing" class="text-base font-medium text-gray-500 hover:text-gray-900 transition-colors duration-300 ease-in-out">Pricing</a>
+                  <a href="index.html#about" class="text-base font-medium text-gray-500 hover:text-gray-900 transition-colors duration-300 ease-in-out">About</a>
+              </nav>
+          </div>
+      </div>
+  </header>
+
+  <main class="flex-grow">
+      <section class="py-20">
+          <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+              <h1 class="text-4xl font-bold text-center text-gray-900 mb-8">24/7 Availability</h1>
+              <div class="max-w-3xl mx-auto">
+                  <p class="text-xl text-gray-600 mb-8">ResponseBuddy's 24/7 availability ensures that your customers receive instant support at any time, day or night. Our AI-powered system never sleeps, providing continuous assistance to enhance customer satisfaction and loyalty.</p>
+                  <div class="bg-white shadow-lg rounded-lg overflow-hidden mb-8">
+                      <div class="p-6">
+                          <h2 class="text-2xl font-bold text-gray-900 mb-4">Key Benefits</h2>
+                          <ul class="list-disc list-inside space-y-2 text-gray-600">
+                              <li>Round-the-clock customer support</li>
+                              <li>Instant responses to customer queries</li>
+                              <li>Reduced wait times and improved customer satisfaction</li>
+                              <li>Support for multiple time zones</li>
+                              <li>Consistent service quality at all hours</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="bg-white shadow-lg rounded-lg overflow-hidden mb-8">
+                      <div class="p-6">
+                          <h2 class="text-2xl font-bold text-gray-900 mb-4">How It Works</h2>
+                          <ol class="list-decimal list-inside space-y-2 text-gray-600">
+                              <li>ResponseBuddy's AI is always active and ready to assist</li>
+                              <li>Customers can initiate conversations at any time</li>
+                              <li>The AI analyzes queries and provides instant, relevant responses</li>
+                              <li>Complex issues are seamlessly escalated to human agents during business hours</li>
+                              <li>Continuous learning improves the AI's performance over time</li>
+                          </ol>
+                      </div>
+                  </div>
+                  <div class="text-center">
+                      <a href="get-started.html" class="inline-block bg-indigo-600 text-white font-bold py-3 px-6 rounded-md hover:bg-indigo-700 transition-colors duration-300">Start Your 24/7 Support Journey</a>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </main>
+
+  <footer class="bg-gray-900 text-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+              <div class="col-span-2 md:col-span-1">
+                  <a href="index.html" class="flex items-center space-x-2 mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                      </svg>
+                      <span class="font-bold text-2xl text-indigo-400">ResponseBuddy</span>
+                  </a>
+                  <p class="text-gray-400 mb-4">Revolutionizing customer support with AI-powered solutions.</p>
+              </div>
+              <div>
+                  <h3 class="text-lg font-semibold mb-4">Product</h3>
+                  <ul class="space-y-2">
+                      <li><a href="index.html#features" class="text-gray-400 hover:text-white">Features</a></li>
+                      <li><a href="index.html#pricing" class="text-gray-400 hover:text-white">Pricing</a></li>
+                      <li><a href="#" class="text-gray-400 hover:text-white">FAQ</a></li>
+                  </ul>
+              </div>
+              <div>
+                  <h3 class="text-lg font-semibold mb-4">Company</h3>
+                  <ul class="space-y-2">
+                      <li><a href="index.html#about" class="text-gray-400 hover:text-white">About Us</a></li>
+                      <li><a href="#" class="text-gray-400 hover:text-white">Careers</a></li>
+                      <li><a href="#" class="text-gray-400 hover:text-white">Contact</a></li>
+                  </ul>
+              </div>
+              <div>
+                  <h3 class="text-lg font-semibold mb-4">Legal</h3>
+                  <ul class="space-y-2">
+                      <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+                      <li><a href="#" class="text-gray-400 hover:text-white">Terms of Service</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="mt-8 pt-8 border-t border-gray-800 text-center">
+              <p class="text-gray-400">&copy; 2024 ResponseBuddy. All rights reserved.</p>
+          </div>
+      </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
